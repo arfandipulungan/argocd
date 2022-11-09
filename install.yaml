@@ -11120,4 +11120,4 @@ spec:
     matchLabels:
       app.kubernetes.io/name: argocd-server
   policyTypes:
-  - Ingres
+  - Ingress
