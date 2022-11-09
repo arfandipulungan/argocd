@@ -10504,7 +10504,7 @@ spec:
       containers:
       - command:
         - argocd-server
-        - --insecure
+		- --insecure
         env:
         - name: ARGOCD_SERVER_INSECURE
           valueFrom:
@@ -11120,4 +11120,4 @@ spec:
     matchLabels:
       app.kubernetes.io/name: argocd-server
   policyTypes:
-  - Ingress
+  - Ingres
